@@ -34,7 +34,10 @@ console.log(today)
 }
   return(
     <div className="app">
-         <h1> هناكل اي النهاردة</h1>
+         <h1> 
+           هناكل اي النهاردة
+           <i class="fab fa-envira"></i>
+           </h1>
 
          <form className="search-form" onSubmit={getSearch}>
            <input
@@ -50,7 +53,7 @@ console.log(today)
 
          <div class="recipe-days">
          
-         <img src="../assets/imgs/spiral2.png" className="recipe-days-note" alt="recipe-bg"/>  
+         <img src="../assets/imgs/spiral5.png" className="recipe-days-note" alt="recipe-bg"/>  
          <div className="recipe-of-the-day">
          <h2 className="year-title">2021</h2>
            <button className="recipe-of-the-day-btn" onClick={RecipeOfDay} >

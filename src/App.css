@@ -9,6 +9,25 @@ background-attachment: fixed;
 background-repeat: no-repeat;
 
 }
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 button{
   cursor: pointer;
 }
@@ -35,7 +54,7 @@ button{
   padding: 20px;
   color: #20160a;
   background:rgba(255, 255, 255,.6);
-  border:2px solid transparent;
+  border:2px solid #fff;
   outline: 0;
   box-shadow:0 2px 5px 1px rgba(188 ,82 ,31 ,.6);
   border-radius: 5px;
@@ -54,6 +73,8 @@ button{
     width: 70%;
     margin: 50px auto;
     background: #eead37;
+    padding:20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 
 }
 .recipe-of-the-day{
@@ -71,8 +92,9 @@ button{
 }
 .recipe-days-note{
   position: absolute;
-  top:48%;   
- width: 71%;
+  top: 49%;
+    width: 70%;
+    height: 40px;
 }
 .recipe-of-the-day-btn{
   width: 200px;
@@ -84,6 +106,13 @@ button{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  transition: all .5s linear;
+  color:#fff;
+  font-size: 24px;
+}
+.recipe-of-the-day-btn:hover{
+  background: #eead37;
 }
 .recipe-of-the-day-btn img{
    width: 100px;
@@ -130,7 +159,7 @@ button{
 }
 .recipe-note{
     position: absolute;
-    top:-35px;
+    top:-24px;
     height: 60px;
     width: 100%;
     z-index: 99;

@@ -24,7 +24,7 @@ const Recipe = ({id,recName}) =>{
             <button className="recipe-button" data-modal={id} onClick={HandleReceipe}>{id}</button>
             <div className="recipe-detail " id={id}>
                 <div className="recipe-container">
-                <img src="../assets/imgs/spiral2.png" className="recipe-note" alt="recipe-bg"/>   
+                <img src="../assets/imgs/spiral5.png" className="recipe-note" alt="recipe-bg"/>   
                 <button className="recipe-close-btn" onClick={HandleClose}><i class="far fa-times-circle"></i></button>
                 <div className="recipe-cover">
                 <h2 className="recipe-name" >{recName}</h2>
