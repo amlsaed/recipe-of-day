@@ -16,6 +16,10 @@ useEffect(() => {
 
 const handleChange = e =>{
   setSearchTerm(e.target.value);
+  (e.target.value)?  document.getElementById("recipe-today").style.display="none":  
+  document.getElementById("recipe-today").style.display="flex";
+  
+
 }
 const getSearch = e=>{
   e.preventDefault();
@@ -54,7 +58,7 @@ console.log(today)
          <div class="recipe-days">
          
          <img src="../assets/imgs/spiral5.png" className="recipe-days-note" alt="recipe-bg"/>  
-         <div className="recipe-of-the-day">
+         <div className="recipe-of-the-day" id="recipe-today">
          <h2 className="year-title">2021</h2>
            <button className="recipe-of-the-day-btn" onClick={RecipeOfDay} >
              <img src="../assets/imgs/breakfast.png"/>
@@ -63,11 +67,15 @@ console.log(today)
              </span>
             </button>
          </div> 
-         {searchResults.map(recipe =>(
+
+         {(results.length > 0)?searchResults.map(recipe =>(
           <Recipe id={recipe.id} recName={recipe.recipeName}/>
 
         ))
-
+        :
+        
+          <h2>جرب كلمة تانية </h2>
+        
         }
          </div>
         

@@ -1,926 +1,1474 @@
 const Recepied = [
     {
         id:1,
-        day:"1",
-        month:"jun",
         recipeName:"chicken",
         ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner",
-        Artype:"غداء",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
+    
     },
     {
         id:2,
-        recipeName:"rice",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:3,
-        recipeName:"cinapone",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:4,
-        recipeName:"cake",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:5,
-        recipeName:"tea",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:6,
-        recipeName:"chocolate",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:7,
-        recipeName:"smoothy",
-        calories:"5553",
-        type:"dinner3"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:8,
-        recipeName:"strawperry",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:9,
-        recipeName:"cheese",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:10,
-        recipeName:"red velvet",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:11,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:12,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:13,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:14,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:15,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:16,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:17,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
-        
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:18,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:19,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:20,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:21,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:22,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:23,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:24,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:25,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:26,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:27,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:28,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:29,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:30,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:31,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:32,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:33,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:34,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:35,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:36,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:37,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:38,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:39,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:40,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:41,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:42,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:43,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:44,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:45,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:46,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:47,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:48,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:49,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:50,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:51,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:52,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:53,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:54,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:55,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:56,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:57,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:58,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:59,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:60,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:61,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:62,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:63,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:64,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:65,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:66,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:67,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:68,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:69,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:70,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:71,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:72,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
 
     {
         id:73,
-        day:"1",
-        month:"jun",
         recipeName:"chicken",
         ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner",
-        Artype:"غداء",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     },
     {
         id:74,
-        recipeName:"rice",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:75,
-        recipeName:"cinapone",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:76,
-        recipeName:"cake",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:77,
-        recipeName:"tea",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
-        
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:78,
-        recipeName:"chocolate",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:79,
-        recipeName:"smoothy",
-        calories:"5553",
-        type:"dinner3"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:80,
-        recipeName:"strawperry",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:81,
-        recipeName:"cheese",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:82,
-        recipeName:"red velvet",
-        calories:"5552",
-        type:"dinner2"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:83,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:84,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:85,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:86,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:87,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:88,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:89,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:90,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:91,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:92,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:93,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:94,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:95,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:96,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:97,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:98,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:99,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:100,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:101,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:102,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:103,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:104,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:105,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
-        
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:106,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:107,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:108,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:109,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:110,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:111,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:112,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:113,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:114,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:115,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
@@ -934,1997 +1482,3168 @@ const Recepied = [
     },
     {
         id:117,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:118,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:119,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:120,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:121,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:122,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:123,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:124,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:125,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:126,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:127,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:128,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:129,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:130,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:131,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:132,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:133,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:134,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:135,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:136,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:137,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
-        
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:138,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:139,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:140,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:141,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:142,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:143,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:144,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },{
         id:145,
-        day:"1",
-        month:"jun",
         recipeName:"chicken",
         ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner",
-        Artype:"غداء",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     },
     {
         id:146,
-        recipeName:"rice",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:147,
-        recipeName:"cinapone",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:148,
-        recipeName:"cake",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:149,
-        recipeName:"tea",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
-        
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:150,
-        recipeName:"chocolate",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:151,
-        recipeName:"smoothy",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:152,
-        recipeName:"strawperry",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:153,
-        recipeName:"cheese",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:154,
-        recipeName:"red velvet",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:155,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:156,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:157,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
-        
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:158,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:159,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:160,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:161,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:162,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:163,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:164,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:165,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
-        
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:166,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:167,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:168,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:169,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:170,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:171,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:172,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:173,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:174,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:175,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:176,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:177,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
-        
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:178,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:179,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:180,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:181,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:182,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:183,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
-        
-    
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     },
     {
         id:184,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:185,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:186,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:187,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:188,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:189,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
-        
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:190,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:191,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:192,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:193,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
-        
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:194,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:195,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:196,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:197,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:198,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:199,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:200,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:201,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:202,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:203,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:204,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:205,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:206,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:207,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:208,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:209,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:210,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:211,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:212,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:213,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:214,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:215,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:216,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
 
     {
         id:217,
-        day:"1",
-        month:"jun",
         recipeName:"chicken",
         ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner",
-        Artype:"غداء",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     },
     {
         id:218,
-        recipeName:"rice",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:219,
-        recipeName:"cinapone",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:220,
-        recipeName:"cake",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:221,
-        recipeName:"tea",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:223,
-        recipeName:"chocolate",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:224,
-        recipeName:"smoothy",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:225,
-        recipeName:"strawperry",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:226,
-        recipeName:"cheese",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
-        
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:227,
-        recipeName:"red velvet",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:228,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:229,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:230,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
-        
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:231,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:232,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:233,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:234,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:235,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:236,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:237,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:238,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:239,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:240,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:241,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:242,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
-        
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:243,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:244,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:245,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:246,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:247,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:248,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:249,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:250,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:251,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:252,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:253,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:254,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:255,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:256,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:257,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:258,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:259,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:260,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:261,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:262,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:263,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:264,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:265,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:266,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:267,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:268,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:269,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:270,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:271,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:272,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:273,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:274,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:275,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:276,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:277,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:278,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:279,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:280,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:281,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:282,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:283,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:284,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:285,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:286,
-        recipeName:"cccc1",
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
         calories:"5551",
-        type:"dinner1"
-        
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:287,
-        recipeName:"cccc2",
-        calories:"5552",
-        type:"dinner2"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:288,
-        recipeName:"cccc3",
-        calories:"5553",
-        type:"dinner3"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:289,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:290,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:291,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:292,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:293,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:294,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:295,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:296,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:297,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:298,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:299,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:300,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:301,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:302,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
-    
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     },
     {
         id:303,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:304,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:305,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:306,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:307,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:308,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:309,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:310,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:311,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:312,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:313,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:314,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:315,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:315,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:316,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
-    
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     },
     {
         id:317,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:318,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:319,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:320,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:321,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:322,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:323,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:324,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:325,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:326,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:327,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:328,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
-        
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
     
     },
     {
         id:329,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:330,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:331,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:332,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:333,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:334,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:335,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:336,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:337,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:338,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:339,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:340,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:341,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:342,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:343,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:344,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:345,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:346,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:347,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:348,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:349,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:350,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:351,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:352,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:353,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:354,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:355,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:356,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:357,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:358,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:359,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:360,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:361,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:362,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:363,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:365,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
     {
         id:366,
-        recipeName:"cccc4",
-        calories:"5554",
-        type:"dinner4"
+        recipeName:"chicken",
+        ArRecipeName:"فراخ و رز",
+        calories:"5551",
+        numpersns:"5",
+        cooktime:"30min",
+        gradiens:["hhhhh",'jjjjjjjjjjjjj'],
+        steps:["gggggggg","kkkkkkkkkkkkkkkkk"],
+        image:["../assets/imgs/recipes/1.png"]
         
     
     },
