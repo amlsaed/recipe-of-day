@@ -2,7 +2,7 @@ import React from "react";
 
 
 
-const Recipe = ({id,recName}) =>{
+const Recipe = ({id,recName,results}) =>{
 
    const HandleReceipe = (e)=>{
        e.preventDefault();
@@ -18,10 +18,10 @@ const Recipe = ({id,recName}) =>{
        const clsModl = document.getElementById(btnNum);
        clsModl.classList.remove("visible")
    }
-   
+  
     return(
         <div>
-            <button className="recipe-button" data-modal={id} onClick={HandleReceipe}>{id}</button>
+            <button className="recipe-button " data-modal={id} onClick={HandleReceipe} >{id}</button>
             <div className="recipe-detail " id={id}>
                 <div className="recipe-container">
                 <img src="../assets/imgs/spiral5.png" className="recipe-note" alt="recipe-bg"/>   
@@ -90,4 +90,5 @@ const Recipe = ({id,recName}) =>{
         
     )
 }
-export default Recipe;
+
+export default Recipe ;

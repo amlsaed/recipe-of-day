@@ -3,28 +3,27 @@ import Recipe from './recipe';
 import {Recepied} from './data'
 import './App.css';
 const App = ()=>{
-
 const [searchTerm,setSearchTerm] = useState("");
 const [searchResults, setSearchResults] = useState([]);
 const results = Recepied.filter(receipe =>
   receipe.recipeName.toLowerCase().includes(searchTerm));
-
 useEffect(() => {
   
   setSearchResults(results);
 }, [searchTerm]);
 
-const handleChange = e =>{
+const handleChange = (e)=>{
+  
+
   setSearchTerm(e.target.value);
   (e.target.value)?  document.getElementById("recipe-today").style.display="none":  
   document.getElementById("recipe-today").style.display="flex";
-  
-
 }
 const getSearch = e=>{
   e.preventDefault();
   setSearchResults(results);
 }
+
 const RecipeOfDay = () =>{
 const getDay = '';
 const now = new Date();
@@ -46,6 +45,7 @@ console.log(today)
          <form className="search-form" onSubmit={getSearch}>
            <input
             type="text" 
+            id="search-bar"
             className="search-bar"
             placeholder="اكتب شيئا للبحث عنــــه"
             value={searchTerm}
@@ -69,8 +69,8 @@ console.log(today)
          </div> 
 
          {(results.length > 0)?searchResults.map(recipe =>(
-          <Recipe id={recipe.id} recName={recipe.recipeName}/>
-
+          <Recipe id={results.length > 0 && document.getElementById("search-bar").value?recipe.recipeName:recipe.id} recName={recipe.recipeName} results />
+          
         ))
         :
         
