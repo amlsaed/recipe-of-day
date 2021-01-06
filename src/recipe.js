@@ -21,7 +21,19 @@ const Recipe = ({id,recName,results}) =>{
   
     return(
         <div>
-            <button className="recipe-button " data-modal={id} onClick={HandleReceipe} >{id}</button>
+            {
+                (results.length > 0 && document.getElementById("search-bar").value)?
+                    <button className="recipe-button-title" data-modal={id} onClick={HandleReceipe} >
+                       <img src="../assets/imgs/1.jpg" className="recipe-img-title" alt="food img" data-modal={id}/>
+                        {recName}
+                    </button>  
+                : <button className="recipe-button" data-modal={id} onClick={HandleReceipe} >
+                      {id}
+                  </button>  
+            }
+            {/* <button className="recipe-button" data-modal={id} onClick={HandleReceipe} >
+                {results.length > 0 && document.getElementById("search-bar").value?recName:id}
+            </button> */}
             <div className="recipe-detail " id={id}>
                 <div className="recipe-container">
                 <img src="../assets/imgs/spiral5.png" className="recipe-note" alt="recipe-bg"/>   

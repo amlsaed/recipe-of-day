@@ -6,7 +6,7 @@ const App = ()=>{
 const [searchTerm,setSearchTerm] = useState("");
 const [searchResults, setSearchResults] = useState([]);
 const results = Recepied.filter(receipe =>
-  receipe.recipeName.toLowerCase().includes(searchTerm));
+  receipe.ArRecipeName&&receipe.ArRecipeName.includes(searchTerm));
 useEffect(() => {
   
   setSearchResults(results);
@@ -69,12 +69,15 @@ console.log(today)
          </div> 
 
          {(results.length > 0)?searchResults.map(recipe =>(
-          <Recipe id={results.length > 0 && document.getElementById("search-bar").value?recipe.recipeName:recipe.id} recName={recipe.recipeName} results />
+          <Recipe id={recipe.id} recName={recipe.ArRecipeName} results={results} />
           
         ))
         :
         
-          <h2>جرب كلمة تانية </h2>
+          <h2 className="no-results">
+            <i class="far fa-sad-tear"></i>
+            جرب كلمة تانية
+          </h2>
         
         }
          </div>
